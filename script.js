@@ -6,7 +6,7 @@ function ajax() {
     xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
             var response = JSON.parse(this.responseText);
-            var output = "<h2>Grocery items</h2><br>  <select id=mylist onchange=list()><option  disabled selected>Department</option><option>All</option><option>Stationary</option><option>Vegetables</option><option>Bakery</option></select>   <table><tr><th>Index No.</th><th>Product</th><th>Quantity</th><th>Unit</th><th>Department</th><th>Notes</th></tr>";
+            var output = "<h2>Grocery items</h2><br>  <select id=mylist onchange=list()><option>All</option><option>Stationary</option><option>Vegetables</option><option>Bakery</option></select>   <table><tr><th>Index No.</th><th>Product</th><th>Quantity</th><th>Unit</th><th>Department</th><th>Notes</th></tr>";
 
             p = response.list;
 
@@ -27,7 +27,7 @@ function ajax() {
 
 function list() {
     input = document.getElementById("mylist").value;   
-    var output = "<h2>Grocery items</h2><br>  <select id=mylist onchange=list()><option disabled selected>Department</option><option>All</option><option>Stationary</option><option>Vegetables</option><option>Bakery</option></select>   <table id=mytable><tr><th>Index No.</th><th>Product</th><th>Quantity</th><th>Unit</th><th>Department</th><th>Notes</th></tr>";  
+    var output = "<h2>Grocery items</h2><br>  <select id=mylist onchange=list()><option>All</option><option>Stationary</option><option>Vegetables</option><option>Bakery</option></select>   <table id=mytable><tr><th>Index No.</th><th>Product</th><th>Quantity</th><th>Unit</th><th>Department</th><th>Notes</th></tr>";  
 
     for (let i = 0; i < p.length; i++) {
         if (input == "Stationary") {
