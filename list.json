@@ -1,0 +1,92 @@
+{"list":
+	[   {
+            "serialnumber":"1",
+			"product": "Sugar",
+			"Quantity": "2",
+			"unit": "Kg",
+			"Department": "Stationary",
+			"notes": "nil"
+		},
+		{
+            "serialnumber":"2",
+			"product": "Salt",
+			"Quantity": "1",
+			"unit": "Kg",
+			"Department": "Stationary",
+			"notes": "nil"
+		},
+		{
+            "serialnumber":"3",
+			"product": "Rice",
+			"Quantity": "15",
+			"unit": "Kg",
+			"Department": "Stationary",
+			"notes": "nil"
+		},
+		{
+            "serialnumber":"4",
+			"product": "Potato",
+			"Quantity": "1",
+			"unit": "Kg",
+			"Department": "Vegetables",
+			"notes": "nil"
+		},
+		{
+            "serialnumber":"5",
+			"product": "Tomato",
+			"Quantity": "1",
+			"unit": "Kg",
+			"Department": "Vegetables",
+			"notes": "nil"
+		},
+		{
+            "serialnumber":"6",
+			"product": "Onion",
+			"Quantity": "2",
+			"unit": "Kg",
+			"Department": "Vegetables",
+			"notes": "nil"
+		},
+		{
+            "serialnumber":"7",
+			"product": "Carrot",
+			"Quantity": "1",
+			"unit": "kg",
+			"Department": "Stationary",
+			"notes": "nil"
+		},
+		{
+            "serialnumber":"8",
+			"product": "Wheat",
+			"Quantity": "2",
+			"unit": "Kg",
+			"Department": "Stationary",
+			"notes": "nil"
+		},
+		{
+            "serialnumber":"9",
+			"product": "Teapowder",
+			"Quantity": "500",
+			"unit": "grams",
+			"Department": "Stationary",
+			"notes": "nil"
+		},
+		{
+            "serialnumber":"10",
+			"product": "Biscut",
+			"Quantity": "2",
+			"unit": "pack",
+			"Department": "Bakery",
+			"notes": "nil"
+		},
+		{
+            "serialnumber":"11",
+			"product": "Chips",
+			"Quantity": "500",
+			"unit": "grams",
+			"Department": "Bakery",
+			"notes": "nil"
+		}
+
+	]
+}	
